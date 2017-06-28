@@ -1,0 +1,17 @@
+{
+  "name": "prest-oauth2",
+  "version": "1.0.0",
+  "description": "A simple Node.JS library for handling OAuth2 requests to a server with implicit support for PostgreSQL and expansion possibilities for custom implementations. Written in TypeScript and compiled to JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tsc.cmd && cd compiled && node ws-test.js"
+  },
+  "author": "Ryan Delaney (@vitineth)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "^6.1.41",
+    "moment": "^2.18.1",
+    "pg": "^6.4.0",
+    "typescript": "^2.3.4"
+  }
+}
